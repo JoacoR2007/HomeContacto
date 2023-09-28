@@ -1,0 +1,128 @@
+
+header{
+    background-color: black;
+    border: 17px groove aquamarine;
+    margin: 0px;
+}
+.li-1{
+    text-decoration: solid;
+    list-style: none;
+    margin: 10px;
+    flex-direction:row;
+    border: 2px solid white;
+    padding: 10px;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+.li-1:hover{
+    transform: scale(1.1)
+}
+body{
+    margin: 0px;
+}
+main{
+    background-color: black;
+    border: 17px ridge aquamarine;
+    margin-bottom: 0px;
+}
+a{
+    text-align: center;
+    margin-left: 1px;
+    color:white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+
+}
+.escuela{
+     border: 12px ridge aquamarine;
+     border-radius: 5px;
+}
+h1{
+    text-align: center;
+    margin: auto;
+    font-family:fantasy;
+}
+#ul-1{
+    display: flex;
+    justify-content: center;
+    
+}
+main{
+    color: white;
+}
+.imagen{
+    flex: 0 0 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+    overflow-x: scroll;
+}
+div{
+    
+    flex-direction: row;
+    margin: auto;
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    scroll-snap-type: x mandatory;
+    max-width: 5000px;
+}
+.carrousel{
+    width: fit-content;
+    height: auto;
+    overflow-x: scroll;
+    
+}
+p{
+    margin:35px;
+}
+h4{
+    margin:35px;
+}
+
+
+.fachero {
+    display: flex;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: inline-flex    ;
+    flex-direction:column;
+    flex-wrap:unset;
+    justify-content:unset;
+
+}
+
+.footer-logo{
+    display: inline-block;
+    width: min-content;
+    height: min-content;
+}
+
+.footer-logo img {
+    max-width: 250px; 
+    max-height: 250px;
+    float: left;
+    object-fit: cover;
+}
+
+.footer-info p {
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-icon {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.social-icon:hover {
+    color: aquamarine; 
+}
